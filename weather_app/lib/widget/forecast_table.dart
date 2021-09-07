@@ -28,6 +28,7 @@ class ForecastTableView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: deprecated_member_use
     var textStyle = Theme.of(context).textTheme.body1;
     return Padding(
       padding: const EdgeInsets.only(
