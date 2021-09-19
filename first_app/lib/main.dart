@@ -10,6 +10,7 @@ import 'pages/fourth_page.dart';
 import 'pages/second_page.dart';
 import 'pages/sixth_page.dart';
 import 'pages/third_page.dart';
+import 'pages/seventh_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(
           primaryColor: Colors.amber,
+          // ignore: deprecated_member_use
           accentColor: Colors.red,
           textTheme: TextTheme(
             bodyText2: TextStyle(color: Colors.purple),
@@ -36,6 +38,7 @@ class MyApp extends StatelessWidget {
           '/4': (context) => FourthPage(),
           '/5': (context) => FifthPage(),
           '/6': (context) => SixthPage(),
+          '/7': (context) => SeventhPage(),
         });
   }
 }

@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 class FifthPage extends StatelessWidget {
@@ -9,7 +11,7 @@ class FifthPage extends StatelessWidget {
       ),
       body: GridView.count(
         crossAxisCount: 2,
-        children: List.generate(6, (index) {
+        children: List.generate(7, (index) {
           return InkWell(
             onTap: () {
               Navigator.pushNamed(context, '/${index + 1}');

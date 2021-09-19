@@ -219,13 +219,13 @@ class _ForecastPageState extends State<ForecastPage>
           ColorTransitionText(
             text: _weatherDescription,
             // ignore: deprecated_member_use
-            style: Theme.of(context).textTheme.headline,
+            style: Theme.of(context).textTheme.headline5,
             animation: _textColorTween.animate(_animationController),
           ),
           ColorTransitionText(
             text: _currentTemp,
             // ignore: deprecated_member_use
-            style: Theme.of(context).textTheme.display3,
+            style: Theme.of(context).textTheme.headline2,
             animation: _textColorTween.animate(_animationController),
           ),
         ],
@@ -248,7 +248,7 @@ class _ForecastPageState extends State<ForecastPage>
           title: ColorTransitionText(
             text: _forecastController.selectedHourlyTemperature.city.name,
             // ignore: deprecated_member_use
-            style: Theme.of(context).textTheme.headline,
+            style: Theme.of(context).textTheme.headline5,
             animation: _textColorTween.animate(_animationController),
           ),
           actionIcon: widget.settingsButton,

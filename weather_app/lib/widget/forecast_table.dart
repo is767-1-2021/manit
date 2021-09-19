@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:flutter/material.dart';
 import 'package:weather_app/models/src/app_settings.dart';
 import 'package:weather_app/models/src/weather.dart';
@@ -29,7 +31,8 @@ class ForecastTableView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // ignore: deprecated_member_use
-    var textStyle = Theme.of(context).textTheme.body1;
+    var body1;
+    var textStyle = Theme.of(context).textTheme.bodyText2;
     return Padding(
       padding: const EdgeInsets.only(
         left: 24.0,
