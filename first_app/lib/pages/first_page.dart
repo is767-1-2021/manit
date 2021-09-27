@@ -1,7 +1,9 @@
 //import 'dart:html';
 
+import 'package:first_app/models/first_form_model.dart';
 import 'package:first_app/pages/second_page.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class FirstPage extends StatefulWidget {
   @override
@@ -9,6 +11,7 @@ class FirstPage extends StatefulWidget {
 }
 
 class _FirstPageState extends State<FirstPage> {
+  // ignore: unused_field
   String? _formData = 'Please click to fill the form';
   @override
   Widget build(BuildContext context) {
@@ -41,7 +44,11 @@ class _FirstPageState extends State<FirstPage> {
           children: [
             Padding(
               padding: EdgeInsets.all(20.0),
-              child: Text('$_formData'),
+              child: Consumer<FirstFormModel>(
+                builder: (context, form, child) {
+                  return Text('${form.firstName} ${form.lastName} ${form.age}');
+                },
+              ),
             ),
             ElevatedButton(
               onPressed: () async {
