@@ -54,7 +54,7 @@ class _FirstPageState extends State<FirstPage> {
               onPressed: () async {
                 var response = await Navigator.pushNamed(context, '/6');
 
-                if (response != null && !response.toString().isEmpty) {
+                if (response != null && !response.toString().isNotEmpty) {
                   setState(() {
                     _formData = response.toString();
                   });
