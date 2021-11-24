@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>818638033842-4cffai5gchfpkn9v8a0s9iesu48592lt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.818638033842-4cffai5gchfpkn9v8a0s9iesu48592lt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMt3UTdGq4ozHGgdMMWFEQzdN_HsXE7-4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>818638033842</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.msmistu15.ondiet</string>
+	<key>PROJECT_ID</key>
+	<string>is767-2021-ondiet</string>
+	<key>STORAGE_BUCKET</key>
+	<string>is767-2021-ondiet.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:818638033842:ios:138ecec2db0c4133f18aab</string>
+	<key>DATABASE_URL</key>
+	<string>https://is767-2021-ondiet-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
